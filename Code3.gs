@@ -8,7 +8,7 @@ const APP_TITLE = "Nabung Emas - by top8";
 
 // 1. FUNGSI UTAMA UNTUK MENAMPILKAN APLIKASI WEB
 function doGet() {
-  return HtmlService.createTemplateFromFile('index')
+  return HtmlService.createTemplateFromFile('Index')
     .evaluate()
     .setTitle(APP_TITLE)
     .addMetaTag('viewport', 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover')
